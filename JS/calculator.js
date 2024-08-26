@@ -1,0 +1,1 @@
+const calcBtns = document.querySelectorAll('input[type="button"]');
