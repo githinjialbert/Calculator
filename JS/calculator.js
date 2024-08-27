@@ -26,7 +26,7 @@ buttons.forEach((button) => {
         } 
         else if (value === "=") {
             try {
-                screen.value = eval(screen.value.replace('Math.sqrt', 'Math.sqrt'))
+                screen.value = eval(screen.value.replace('Math.sqrt', 'Math.sqrt'));
             } catch (error) {
               screen.value = "Error";  
             }
