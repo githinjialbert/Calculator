@@ -10,29 +10,34 @@
     <h1>Calculator</h1>
     <main>
         <div id="screen-section">
-            <input type="text" id="screen" value="">
+            <input type="text" id="screen" value="0" readonly>
         </div>
         <div class="button-container">
-            <input value="AC" type="button">
-            <input value="/" type="button">
-            <input value="*" type="button">
-            <input value="DEL" type="button">
-            <input value="7" type="button">
-            <input value="8" type="button">
-            <input value="9" type="button">
-            <input value="-" type="button">
-            <input value="4" type="button">
-            <input value="5" type="button">
-            <input value="6" type="button">
-            <input value="+" type="button">
-            <input value="1" type="button">
-            <input value="2" type="button">
-            <input value="3" type="button">
-            <input value="()" type="button">
-            <input value="0" type="button">
-            <input value="." type="button">
-            <input value="√" type="button">
-            <input value="=" type="button">
+
+            <input value="AC" type="button" class="operator">
+            <input value="/" type="button" class="operator-math">
+            <input value="*" type="button" class="operator-math">
+            <input value="DEL" type="button" class="operator">
+
+            <input value="7" type="button" class="number">
+            <input value="8" type="button" class="number">
+            <input value="9" type="button" class="number">
+            <input value="-" type="button" class="operator-math">
+
+            <input value="4" type="button" class="number">
+            <input value="5" type="button" class="number">
+            <input value="6" type="button" class="number">
+            <input value="+" type="button" class="operator-math">
+
+            <input value="1" type="button" class="number">
+            <input value="2" type="button" class="number">
+            <input value="3" type="button" class="number">
+            <input value="()" type="button" class="operator-math">
+ 
+            <input value="0" type="button" class="number">
+            <input value="." type="button" class="operator-math">
+            <input value="√" type="button" class="operator-math">
+            <input value="=" type="button" class="operator">
         </div>
     </main>
    <script src="./JS/calculator.js"></script>
